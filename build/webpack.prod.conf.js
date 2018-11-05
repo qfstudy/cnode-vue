@@ -67,7 +67,7 @@ const webpackConfig = merge(baseWebpackConfig, {
       minify: {
         removeComments: true,
         collapseWhitespace: true,
-        removeAttributeQuotes: false  //改动过
+        removeAttributeQuotes: false  
         // more options:
         // https://github.com/kangax/html-minifier#options-quick-reference
       },
