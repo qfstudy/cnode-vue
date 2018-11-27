@@ -245,11 +245,33 @@ export default {
     @media(max-width: 600px){
         .userinfo .row .list li .wraptitle{
             /* display: inline-block; */
-            width: 180px;
+            /* width: 180px; */
+            width: 300px;
             /* color: #80bd01; */
         }
     }
     @media(max-width: 500px){
+        .userinfo .row .list li .wraptitle{
+            /* display: inline-block; */
+            width: 260px;
+            /* color: red; */
+        }
+    }
+   @media(max-width: 420px){
+        .userinfo .row .list li .wraptitle{
+            /* display: inline-block; */
+            width: 200px;
+            /* color: red; */
+        }
+    }
+    @media(max-width: 350px){
+        .userinfo .row .list li .wraptitle{
+            /* display: inline-block; */
+            width: 160px;
+            /* color: red; */
+        }
+    }
+    @media(max-width: 320px){
         .userinfo .row .list li .wraptitle{
             /* display: inline-block; */
             width: 100px;
