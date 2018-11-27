@@ -19,11 +19,9 @@ export default {
 </script>
 
 <style  scoped>
-  /* @media(min-width: 600px){ */
-      #main{
+    #main{
       display: flex;
     }
-  /* } */
   
   @media(max-width: 600px){
     #main .right{
